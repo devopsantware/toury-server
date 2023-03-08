@@ -22,3 +22,4 @@ export const getExpress = (): any => {
 };
 
 export * from './api/FCM/FCMCtrl';
+export * from './api/Users/UserCtrl';
