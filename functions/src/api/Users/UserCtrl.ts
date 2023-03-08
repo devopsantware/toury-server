@@ -18,4 +18,4 @@ user.post('/delete', async (request: express.Request, response: express.Response
     response.send(responseMessage);
 });
 
-exports.customer = functions.https.onRequest(user);
+exports.user = functions.https.onRequest(user);
